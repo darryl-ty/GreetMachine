@@ -6,11 +6,15 @@ public class GreetMachine{
 
     }
 
-    public GreetMachine(String name_in){
+    public GreetMachine(String name_in) {
         name = name_in;
     }
 
-    public String toString(){
+    public String toString() {
         return "Greetings " + name + "!";
+    }
+
+    public void setName(String name_in) {
+
     }
 }
